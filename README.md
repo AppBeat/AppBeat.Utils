@@ -35,6 +35,14 @@ namespace Example
 }
 ```
 
+## NuGet Packages ##
+
+[AppBeat.Utils.Email](https://www.nuget.org/packages/AppBeat.Utils.Email/)
+
+Visual Studio Package Manager Console:
+
+    Install-Package AppBeat.Utils.Email
+
 ## Questions? ##
 
 Please feel free to [contact us](https://www.appbeat.io/contact?subject=Question%20about%20AppBeat.Utils%20library) if you have any questions or suggestions.
