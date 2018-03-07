@@ -1,5 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RepositoryUrl>https://github.com/AppBeat/AppBeat.Utils</RepositoryUrl>
@@ -14,11 +13,14 @@
     <PackageProjectUrl>https://www.appbeat.io/</PackageProjectUrl>
     <PackageIconUrl>https://www.appbeat.io/assets/images/nugeticon.png</PackageIconUrl>
     <PackageReleaseNotes>Initial version</PackageReleaseNotes>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
   </PropertyGroup>
-
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors />
   </PropertyGroup>
-
 </Project>
