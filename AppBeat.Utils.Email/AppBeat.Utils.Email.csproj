@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RepositoryUrl>https://github.com/AppBeat/AppBeat.Utils</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Email</PackageTags>
+    <Description>Useful email utilities written in C#. Can be used for detection of temporary / disposable email addresses.</Description>
+    <Company>AppBeat</Company>
+    <Product>AppBeat Website Monitoring</Product>
+    <Authors>AppBeat</Authors>
+    <Copyright>Copyright © AppBeat 2018</Copyright>
+    <PackageLicenseUrl>https://github.com/AppBeat/AppBeat.Utils/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://www.appbeat.io/</PackageProjectUrl>
+    <PackageIconUrl>https://www.appbeat.io/assets/images/nugeticon.png</PackageIconUrl>
+    <PackageReleaseNotes>Initial version</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
