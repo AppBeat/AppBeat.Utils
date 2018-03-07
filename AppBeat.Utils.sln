@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppBeat.Utils.Email", "AppBeat.Utils.Email\AppBeat.Utils.Email.csproj", "{10963216-16EF-4952-8947-29173186F885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppBeat.Utils.Email.Tests", "AppBeat.Utils.Email.Tests\AppBeat.Utils.Email.Tests.csproj", "{5F2DBCEF-B8B2-4556-A82A-6613E0FF5B5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10963216-16EF-4952-8947-29173186F885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10963216-16EF-4952-8947-29173186F885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10963216-16EF-4952-8947-29173186F885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10963216-16EF-4952-8947-29173186F885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F2DBCEF-B8B2-4556-A82A-6613E0FF5B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2DBCEF-B8B2-4556-A82A-6613E0FF5B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2DBCEF-B8B2-4556-A82A-6613E0FF5B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F2DBCEF-B8B2-4556-A82A-6613E0FF5B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {055C5C0A-B8AA-4348-9969-73ED33078C20}
+	EndGlobalSection
+EndGlobal
