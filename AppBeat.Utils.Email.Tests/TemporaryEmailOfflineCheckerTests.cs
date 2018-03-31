@@ -22,7 +22,7 @@ namespace AppBeat.Utils.Email.Tests
         [InlineData("@.", null, typeof(ArgumentException))]
         [InlineData("username@127.0.0.1", false)]
         [InlineData("username@localhost", false)]
-        [InlineData("username@test", false)]
+        [InlineData("username@test", false)] 
         public void TemporaryEmailOfflineChecker_TestAddressesAndDomains(string emailOrDomain, bool? isTemporary = true, Type exceptionType = null)
         {
             if (exceptionType != null)
